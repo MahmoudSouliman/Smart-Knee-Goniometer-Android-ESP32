@@ -17,6 +17,10 @@ The **Smart Knee Goniometer** is a specialized medical engineering solution desi
 * **Robust Connection Strategy:** Solved Bluetooth connectivity issues using a hybrid approach (Standard RFCOMM + Reflection Fallback) to ensure 99% connection stability.
 * **Real-time Rendering:** Features a custom-built `KneeView` that uses vector mathematics to render joint movement with zero lag.
 * **Data Integrity:** Implemented an asynchronous listener with a dedicated buffer to handle high-frequency data streams without freezing the UI.
+* 
+<div align="center">
+  <img src="Knee.png" alt="Smart Knee ROM" width="600">
+</div>
 
 ## 🚀 Key Challenges Solved
 * **The "Bluetooth Lock" Issue:** Fixed the common Android Bluetooth socket failure by implementing a 1000ms hardware handshake delay and a socket cleanup routine.
